@@ -8,7 +8,7 @@ import { MyrlModule } from './myrl/myrl.module';
   imports: [
     MyrlModule,
     MongooseModule.forRoot(
-      'mongodb+srv://voopik:voopik@cluster0-j9k2l.mongodb.net/test?retryWrites=true&w=majority',
+      'mongoDB URI',
       { useNewUrlParser: true, useUnifiedTopology: true },
     ),
   ],
